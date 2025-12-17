@@ -66,7 +66,7 @@ export default function Home() {
       description: "Criamos vídeos virais e conteúdos humorísticos que geram engajamento",
       icon: <Film className="w-8 h-8 text-blue-400" />,
       features: ["Roteiros personalizados", "Edição profissional", "Entrega rápida", "Múltiplos formatos"],
-      price: "A partir de 3.000",
+      price: "A partir de 3.000 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/producao-videos"
     },
     {
@@ -74,7 +74,7 @@ export default function Home() {
       description: "Pacote mensal de produção de conteúdos para suas redes sociais",
       icon: <Tv className="w-8 h-8 text-blue-400" />,
       features: ["8-12 vídeos/mês", "Planejamento estratégico", "Calendário editorial", "Análise de performance"],
-      price: "A partir de 5.000",
+      price: "A partir de 5.000 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/gestao-conteudos"
     },
     {
@@ -82,7 +82,7 @@ export default function Home() {
       description: "Cursos, templates e materiais digitais para vender ao seu público",
       icon: <Sparkles className="w-8 h-8 text-blue-400" />,
       features: ["Cursos online", "Templates prontos", "eBooks", "Packs de recursos"],
-      price: "A partir de 250",
+      price: "A partir de 250 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/infoprodutos"
     },
     {
@@ -90,7 +90,7 @@ export default function Home() {
       description: "Treinamentos para você ou sua equipe dominar criação de conteúdo",
       icon: <Users className="w-8 h-8 text-blue-400" />,
       features: ["Aulas ao vivo", "Materiais de apoio", "Certificado", "Suporte contínuo"],
-      price: "A partir de 500",
+      price: "A partir de 500 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/formacoes-workshops"
     },
     {
@@ -98,7 +98,7 @@ export default function Home() {
       description: "Criamos avatares e personagens únicos para sua marca",
       icon: <Target className="w-8 h-8 text-blue-400" />,
       features: ["Design personalizado", "Voz e expressões", "Manual de uso", "Vídeos iniciais"],
-      price: "A partir de 6.000",
+      price: "A partir de 6.000 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/personagens-animados"
     },
     {
@@ -106,7 +106,7 @@ export default function Home() {
       description: "Pacotes completos para lançamentos e campanhas especiais",
       icon: <Zap className="w-8 h-8 text-blue-400" />,
       features: ["5 vídeos virais", "Storytelling", "Conteúdo educativo", "Análise de resultados"],
-      price: "A partir de 8.000",
+      price: "A partir de 8.000 MT",
       gumroadLink: "https://gumroad.com/seu-usuario/l/campanhas-virais"
     }
   ];
@@ -193,12 +193,10 @@ export default function Home() {
             <a href="/pricing" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
               Preços
             </a>
-            <a href="/portfolio" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
+            {/*<a href="/portfolio" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
               Portfólio
-            </a>
-            <a href="/blog" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
-              Blog
-            </a>
+            </a>*/}
+       
             <a href="#testimonials" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
               Clientes
             </a>
